@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+$dark: rgb(153, 78, 78);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.table-responsive{
+  height: 70vh!important;
+  overflow: scroll!important;
+}
